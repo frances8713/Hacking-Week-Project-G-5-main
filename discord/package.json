@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "devStart": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "fetch": "^1.1.0"
+  },
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "fetch-node": "^0.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

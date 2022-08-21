@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  border-radius: 10px;
+  border: solid 3px rgb(255, 255, 255);
+  background: #5865f2;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow-y: hidden;
+}
+
+#myChart {
+  margin: 0.5rem;
+}
+
+.chart {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.chart2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+  select {
+    background-color: #445d76;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+  }
+}
+
+@media (max-width: 1440px) {
+  .chart {
+    flex-direction: column;
+    align-items: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    width: 500px;
+  }
+  .chart2 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .chart {
+    flex-direction: column;
+  }
+  .chart2 {
+    margin-left: 0;
+  }
+
+  .container {
+    width: 400px;
+    align-self: center;
+  }
+}
+@media (max-width: 390px) {
+  .chart {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 300px;
+  }
+}
